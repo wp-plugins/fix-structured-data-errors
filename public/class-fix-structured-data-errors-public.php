@@ -49,22 +49,22 @@ class Fix_Structured_Data_Errors_Public {
 	 */
 	public function __construct( $plugin_name, $version ) {
     
-    add_filter('the_content', array( $this, 'hatom_mod_post_content'), 10);
-    add_filter('the_content', array( $this, 'add_mod_hatom_data'), 10);
+    add_filter('the_content', array( $this, 'preptomodify_content'), 10);
+    add_filter('the_content', array( $this, 'add_structured_data'), 10);
         
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
 
 	}
   
-  public function hatom_mod_post_content ($content) {
+  public function preptomodify_content ($content) {
     if ( in_the_loop() && !is_page() ) {
       $content = ''.$content.'';
     }
     return $content;
   }
 
-  public function add_mod_hatom_data($content) {
+  public function add_structured_data($content) {
     $t = get_the_modified_time('F jS, Y');
     $author = get_the_author();
     $title = get_the_title();
