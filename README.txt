@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Fix Structured Data Errors ===
 Contributors: peterehat
 Donate link: https://www.acceleratormarketing.com/fix-structured-data-errors
 Tags: google webmaster tools, structured data errors
@@ -17,8 +17,6 @@ This plugin is only available here: https://www.acceleratormarketing.com/product
 == Installation ==
 
 This section describes how to install the plugin and get it working.
-
-e.g.
 
 1. Upload `fix-structured-data-errors.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
