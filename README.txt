@@ -14,6 +14,13 @@ This plugin will add structured data tags to your pages and posts in an attempt 
 
 This plugin is only available here: https://www.acceleratormarketing.com/product/fix-structured-data-errors-wordpress-plugin/
 
+Fix those pesky Webmaster Tools structured data errors simply and fast! There is no configuration required. Simply download and install this plugin and your structured data will be automatically configured and displayed at the end of each post or page.
+
+This added structured data will be interpreted and identified by search spiders so that you no longer get structured data errors in Google Webmaster Tools (now called Google Search Console).
+
+*   No configuration required
+*   Simply download and install
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
